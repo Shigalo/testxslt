@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl"?>
+<Document>
+  <BkToCstmrStmt>
+    <GrpHdr>
+      <MsgId>10000001KU9P01E7</MsgId>
+      <CreDtTm>2020-06-18T10:00:00+00:00</CreDtTm>
+      <OrgnlBizQry>
+        <MsgId>200618OP007B3E32</MsgId>
+        <MsgNmId>pain.009.001.005</MsgNmId>
+        <CreDtTm>2020-06-18T00:00:00+00:00</CreDtTm>
+      </OrgnlBizQry>
+      <AddtlInf>711</AddtlInf>
+    </GrpHdr>
+    <Stmt>
+      <Id>7492000193102708</Id>
+      <StmtPgntn>
+        <PgNb>1</PgNb>
+        <LastPgInd>true</LastPgInd>
+      </StmtPgntn>
+      <FrToDt>
+        <FrDtTm>2020-06-18T00:00:00+00:00</FrDtTm>
+        <ToDtTm>2020-06-18T00:00:00+00:00</ToDtTm>
+      </FrToDt>
+      <Acct>
+        <Id>
+          <IBAN>BY81BAPB30140000401101015398</IBAN>
+        </Id>
+        <Ccy>BYN</Ccy>
+        <Ownr>
+          <Nm>ПУХНАРЕВИЧ АЛЕКСАНДР ВАЛЕРЬЕВИЧ</Nm>
+          <Id>
+            <OrgId>
+              <Othr>
+                <Id>INP511111111</Id>
+              </Othr>
+            </OrgId>
+          </Id>
+          <CtryOfRes>BY</CtryOfRes>
+        </Ownr>
+        <Svcr>
+          <FinInstnId>
+            <BICFI>BAPBBY2X</BICFI>
+            <Nm>ОАО 'БЕЛАГРОПРОМБАНК'</Nm>
+          </FinInstnId>
+        </Svcr>
+      </Acct>
+      <Bal>
+        <Tp>
+          <CdOrPrtry>
+            <Cd>INFO</Cd>
+          </CdOrPrtry>
+        </Tp>
+        <Amt Ccy="BYN">618.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Dt>
+          <DtTm>2020-06-18T00:00:00+00:00</DtTm>
+        </Dt>
+      </Bal>
+      <Ntry>
+        <Amt Ccy="BYN">0.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts>
+          <Cd>FUTS</Cd>
+        </Sts>
+        <BkTxCd>
+          <Prtry>
+            <Cd>FUTS </Cd>
+          </Prtry>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <AddtlTxInf>BRON</AddtlTxInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

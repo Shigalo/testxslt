@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\799-camt025">
+      <UniqueIdentifier>{154a62db-a14b-4837-97d0-f72a53a2f844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\712-camt053">
+      <UniqueIdentifier>{709f0a65-c228-46ae-8df0-5df4755cbd72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="testxslt.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="XSLT.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="stocks.xslt">
+      <Filter>Файлы ресурсов</Filter>
+    </Xml>
+    <Xml Include="stocks.xml">
+      <Filter>Файлы ресурсов</Filter>
+    </Xml>
+    <Xml Include="test.xml">
+      <Filter>Файлы ресурсов</Filter>
+    </Xml>
+    <Xml Include="test.xslt">
+      <Filter>Файлы ресурсов</Filter>
+    </Xml>
+    <Xml Include="test2.xml">
+      <Filter>Файлы ресурсов</Filter>
+    </Xml>
+    <Xml Include="test2.xslt">
+      <Filter>Файлы ресурсов</Filter>
+    </Xml>
+    <Xml Include="camt025.xml">
+      <Filter>Файлы ресурсов\799-camt025</Filter>
+    </Xml>
+    <Xml Include="camt025.xslt">
+      <Filter>Файлы ресурсов\799-camt025</Filter>
+    </Xml>
+    <Xml Include="camt053.xml">
+      <Filter>Файлы ресурсов\712-camt053</Filter>
+    </Xml>
+    <Xml Include="camt053.xslt">
+      <Filter>Файлы ресурсов\712-camt053</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

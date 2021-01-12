@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl"?>
+<Document>
+  <Rct>
+    <MsgHdr>
+      <MsgId>10000001KU5V0286</MsgId>
+      <CreDtTm>2020-06-18T11:33:15+00:00</CreDtTm>
+    </MsgHdr>
+    <RctDtls>
+      <OrgnlMsgId>
+        <MsgId>200618OP007B4D42</MsgId>
+        <MsgNmId>camt.060.001.05</MsgNmId>
+      </OrgnlMsgId>
+      <ReqHdlg>
+        <StsCd>4T62</StsCd>
+        <Desc>Запрос не исполнен</Desc>
+      </ReqHdlg>
+    </RctDtls>
+  </Rct>
+</Document>

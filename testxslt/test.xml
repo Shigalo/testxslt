@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml:stylesheet type="text/xsl" href="stock.xsl"?>
+<tutorial>
+  <enimals>
+    <dogs>
+      <dog>
+        <dogName>Sharik</dogName>
+        <dogWeight caption="kg">18</dogWeight>
+        <dogColor>red with black dots</dogColor>
+      </dog>
+      <dog>
+        <dogName>Tuzik</dogName>
+        <dogWeight caption="kg">10</dogWeight>
+        <dogColor>white with brown lands</dogColor>
+      </dog>
+      <dog>
+        <dogName>Bobik</dogName>
+        <dogWeight caption="kg">2</dogWeight>
+        <dogColor>white-grey</dogColor>
+      </dog>
+      <dog>
+        <dogName>Trezor</dogName>
+        <dogWeight caption="kg">25</dogWeight>
+        <dogColor>black</dogColor>
+      </dog>
+    </dogs>
+  </enimals>
+</tutorial>

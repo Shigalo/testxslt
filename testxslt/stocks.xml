@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl"?>
+<Document>
+  <BkToCstmrStmt>
+    <GrpHdr>
+      <MsgId>10000001KU9P01E7</MsgId>
+      <CreDtTm>2020-06-18T10:00:00+00:00</CreDtTm>
+      <OrgnlBizQry>
+        <MsgNmId>pain.009.001.005</MsgNmId>
+        <CreDtTm>2020-06-18T00:00:00+00:00</CreDtTm>
+      </OrgnlBizQry>
+      <AddtlInf>711</AddtlInf>
+    </GrpHdr>
+    <Stmt>
+      <Id>1</Id>
+      <Acct>
+        <Id>BY81BAPB30140000401101015398</Id>
+        <Ccy>BYN</Ccy>
+      </Acct>
+      <Ntry>
+        <Amt Ccy="BYN">0.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+      </Ntry>
+    </Stmt>
+    <Stmt>
+      <Id>2</Id>
+      <Acct>
+        <Id>nextAcctId</Id>
+        <Ccy>nextCcy</Ccy>
+      </Acct>
+      <Ntry>
+        <Amt Ccy="BYN">22.22</Amt>
+        <CdtDbtInd>CRDT2</CdtDbtInd>
+      </Ntry>
+    </Stmt>
+    <Stmt>
+      <Id>3</Id>
+      <Acct>
+        <Id>nextAcctId</Id>
+        <Ccy>nextCcy</Ccy>
+      </Acct>
+      <Ntry>
+        <Amt Ccy="BYN">22.22</Amt>
+        <CdtDbtInd>CRDT2</CdtDbtInd>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>
